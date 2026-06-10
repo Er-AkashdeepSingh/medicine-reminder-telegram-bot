@@ -11,9 +11,13 @@
 	<groupId>com.akashdeep</groupId>
 	<artifactId>medicine-reminder-bot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name/>
-	<description/>
-	<url/>
+	<name>medicine-reminder-bot</name>
+	<description>
+	Telegram based medicine reminder and family adherence tracking system
+	</description>
+	<url>
+	https://github.com/Er-AkashdeepSingh/medicine-reminder-telegram-bot
+	</url>
 	<licenses>
 		<license/>
 	</licenses>
@@ -52,6 +56,11 @@
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.telegram</groupId>
+			<artifactId>telegrambots-springboot-longpolling-starter</artifactId>
+			<version>8.3.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
