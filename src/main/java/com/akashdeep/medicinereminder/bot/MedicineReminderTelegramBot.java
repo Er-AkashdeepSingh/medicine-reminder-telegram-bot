@@ -52,9 +52,13 @@ public class MedicineReminderTelegramBot
         }
 
         String command = update.getMessage().getText();
+        Long chatId = update.getMessage().getChatId();
+        String username = update.getMessage().getFrom() == null
+            ? null
+            : update.getMessage().getFrom().getUserName();
 
         String response =
-                commandRouterService.handleCommand(command);
+            commandRouterService.handleCommand(chatId, username, command);
 
         SendMessage sendMessage =
                 SendMessage.builder()

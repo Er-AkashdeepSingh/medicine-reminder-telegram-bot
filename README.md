@@ -303,6 +303,23 @@ Telegram Bot Setup and Spring Boot Project Initialization
 
 ---
 
+## Progress
+
+### Completed
+- [x] Spring Boot Project Setup
+- [x] Maven Configuration
+- [x] Telegram Bot Creation
+- [x] Long Polling Integration
+- [x] Command Routing Architecture
+- [x] /start Command Implementation
+
+### In Progress
+- [ ] User Registration
+- [ ] Medicine Management
+- [ ] Reminder Scheduler
+- [ ] Adherence Tracking
+- [ ] Family Notifications
+
 ## Author
 
 Akashdeep Singh

@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS users (
+	chat_id BIGINT PRIMARY KEY,
+	telegram_username VARCHAR(255),
+	full_name VARCHAR(255) NOT NULL,
+	relationship VARCHAR(100) NOT NULL,
+	active BOOLEAN NOT NULL DEFAULT TRUE,
+	created_at TIMESTAMP NOT NULL
+);
